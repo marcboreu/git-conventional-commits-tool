@@ -1,6 +1,7 @@
 {
     "name": "git-conventional-commits-tool",
-    "version": "1.0.0",
+    "version": "1.0.2",
+    "type": "module",
     "description": "A CLI tool for conventional commits with icons",
     "main": "bin/commit.js",
     "bin": {
