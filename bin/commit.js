@@ -1,11 +1,11 @@
 #!/usr/bin/env node
 
-const { program } = require('commander');
-const inquirer = require('inquirer');
-const { exec } = require('child_process');
-const fs = require('fs');
-const os = require('os');
-const path = require('path');
+import program from 'commander';
+import inquirer from 'inquirer';
+import { exec } from 'child_process';
+import fs from 'fs';
+import os from 'os';
+import path from 'path';
 
 const commitTypes = [
     { name: 'feat: A new feature', value: '✨ feat' },
