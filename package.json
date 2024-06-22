@@ -1,25 +1,25 @@
 {
     "name": "git-conventional-commits-tool",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "type": "module",
     "description": "A CLI tool for conventional commits with icons",
     "main": "bin/commit.js",
     "bin": {
-      "commit": "./bin/commit.js"
+        "commit": "./bin/commit.js"
     },
     "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {
-      "type": "git",
-      "url": "git+https://github.com/marcboreu/git-conventional-commits-tool.git"
+        "type": "git",
+        "url": "git+https://github.com/marcboreu/git-conventional-commits-tool.git"
     },
     "keywords": [
-      "commit",
-      "cli",
-      "git",
-      "conventional commits",
-      "icons"
+        "commit",
+        "cli",
+        "git",
+        "conventional commits",
+        "icons"
     ],
     "author": {
         "name": "Marc Boreu",
@@ -28,11 +28,11 @@
     },
     "license": "MIT",
     "bugs": {
-      "url": "https://github.com/marcboreu/git-conventional-commits-tool/issues"
+        "url": "https://github.com/marcboreu/git-conventional-commits-tool/issues"
     },
     "homepage": "https://github.com/marcboreu/git-conventional-commits-tool#readme",
     "dependencies": {
-      "commander": "^10.0.0",
-      "inquirer": "^9.0.0"
+        "commander": "^10.0.0",
+        "inquirer": "^9.0.0"
     }
-  }
+}
