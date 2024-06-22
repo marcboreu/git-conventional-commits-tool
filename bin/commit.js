@@ -37,12 +37,13 @@ function loadConfig() {
 program
     .argument('<message>', 'Commit message')
     .action((message) => {
-        const config = loadConfig();
-
-        if (message.trim().length === 0) {
+        
+        if (typeof message === 'undefined' || message.trim().length === 0) {
             console.error('Error: Commit message cannot be empty.');
             process.exit(1);
         }
+
+        const config = loadConfig();
 
         const questions = [
             {
