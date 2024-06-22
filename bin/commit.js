@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-import program from 'commander';
+import { program } from 'commander';
 import inquirer from 'inquirer';
 import { exec } from 'child_process';
 import fs from 'fs';
