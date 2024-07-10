@@ -1,38 +1,36 @@
 {
-    "name": "git-conventional-commits-tool",
-    "version": "1.0.5",
-    "type": "module",
-    "description": "A CLI tool for conventional commits with icons",
-    "main": "bin/commit.js",
-    "bin": {
-        "commit": "./bin/commit.js"
-    },
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/marcboreu/git-conventional-commits-tool.git"
-    },
-    "keywords": [
-        "commit",
-        "cli",
-        "git",
-        "conventional commits",
-        "icons"
-    ],
-    "author": {
-        "name": "Marc Boreu",
-        "email": "marcboreu@gmail.com",
-        "url": "https://marcboreu.com"
-    },
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/marcboreu/git-conventional-commits-tool/issues"
-    },
-    "homepage": "https://github.com/marcboreu/git-conventional-commits-tool#readme",
-    "dependencies": {
-        "commander": "^10.0.0",
-        "inquirer": "^9.0.0"
-    }
+  "name": "gcct",
+  "version": "0.0.1",
+  "description": "A CLI tool for conventional commits with icons",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "gttc": "node ./index.js",
+    "postinstall": "node ./scripts/postinstall.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "gcct": "./bin/gcct.js"
+  },
+  "keywords": [
+    "commit",
+    "cli",
+    "git",
+    "conventional commits",
+    "icons"
+  ],
+  "author": {
+    "name": "Marc Boreu",
+    "email": "marcboreu@gmail.com",
+    "url": "https://marcboreu.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marcboreu/git-conventional-commits-tool/issues"
+  },
+  "homepage": "https://github.com/marcboreu/git-conventional-commits-tool#readme",
+  "dependencies": {
+    "commander": "^10.0.0",
+    "inquirer": "^9.0.0"
+  }
 }
